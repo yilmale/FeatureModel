@@ -5,6 +5,7 @@
 import algebra._
 import algebra.MechanimComb._
 import AlgebraCore._
+import FOModel._
 
 
 object FeatureModelMain extends App {
@@ -38,6 +39,6 @@ object FeatureModelMain extends App {
   println("Eval Double Merge: " + o5.eval() + "\nPrint Double Merge: " + o5.print() +
     "\nCount Double Merge: " + o5.count())
 
-
-
+  FOMConstruct()
+  evaluate(FOModel.fModel.subfeatures)
 }

@@ -109,8 +109,6 @@ object LiftF1F2_F3 extends Lifter[Feature1 with Feature2,Feature3] {
 }
 
 
-
-
 trait MechanismEmpty extends MechanismAlg[Any] {
   def Lit(x : Int) : Any = new Object()
   def Add(e1: Any, e2: Any) : Any = new Object()
