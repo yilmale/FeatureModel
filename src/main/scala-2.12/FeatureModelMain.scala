@@ -41,4 +41,7 @@ object FeatureModelMain extends App {
 
   FOMConstruct()
   evaluate(FOModel.fModel.subfeatures)
+
+
+
 }
